@@ -7,6 +7,7 @@ const idGenerator = require("./utils/id-generator");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+console.log(process.env.PORT);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
